@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { Button } from "@/components/ui/button"
 import {FiDownload} from "react-icons/fi";
 import Social from "@/components/Social";
@@ -15,11 +16,11 @@ export default function Home() {
               Hello I'm <br /> <span className="text-accent">Lanja</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, maiores quaerat. Inventore facilis pariatur officia soluta impedit deserunt saepe.
+              I’m a passionate developer and designer, skilled in building responsive web and mobile applications. I focus on creating seamless user experiences, leveraging both frontend and backend technologies to deliver high-quality solutions. Always learning and evolving to stay ahead in the tech world.
             </p>
             <div className="flex flex-col xl:flex-row items-center gap-8">
               <Button variant="outline" size="lg" className="uppercase flex items-center gap-2">
-                <span>Dowload</span>
+                <span>Download</span>
                 <FiDownload className="text-xl"/>
               </Button>
               <div className="mb-8 xl:mb-0">

@@ -7,19 +7,26 @@ const services = [
   {
     num: '01',
     title: "Frontend development",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, facilis et eaque, mollitia atque illum necessitatibus accusantium quos voluptate asperiores quam obcaecati soluta sit totam quaerat illo! Asperiores, perspiciatis eum.",
+    description: "I specialize in building dynamic and responsive user interfaces using modern frontend technologies. From creating interactive web applications to optimizing performance, I focus on delivering seamless, user-friendly experiences across various devices and screen sizes.",
     href: ""
   },
   {
     num: '02',
     title: "Backend development",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, facilis et eaque, mollitia atque illum necessitatibus accusantium quos voluptate asperiores quam obcaecati soluta sit totam quaerat illo! Asperiores, perspiciatis eum.",
+    description: "With expertise in server-side technologies, I develop robust and scalable backend systems. I ensure efficient API development, database management, and secure data handling, delivering reliable solutions for complex business logic and functionality.",
     href: ""
   },
   {
     num: '03',
     title: "Mobile development",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, facilis et eaque, mollitia atque illum necessitatibus accusantium quos voluptate asperiores quam obcaecati soluta sit totam quaerat illo! Asperiores, perspiciatis eum.",
+    description: "I build cross-platform mobile applications using technologies like Flutter, enabling businesses to reach users on both Android and iOS. I focus on performance, smooth interactions, and integrating native features to create apps that deliver excellent user experiences.",
+    href: ""
+  }
+  ,
+  {
+    num: '04',
+    title: "Design UI/UX",
+    description: "I design intuitive and aesthetically pleasing user interfaces, focusing on the user experience at every stage. By leveraging design tools like Figma and Adobe XD, I create visually appealing layouts and interactions that enhance usability and engagement.",
     href: ""
   }
 ]
