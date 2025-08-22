@@ -19,7 +19,7 @@ export default function Header() {
 
   const handleChangeLanguage = (code) => {
     i18n.changeLanguage(code);
-    setIsOpen(false); // Close dropdown after selection
+    setIsOpen(false);
   };
 
   return (

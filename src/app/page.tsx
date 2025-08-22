@@ -17,7 +17,7 @@ export default function Home() {
           <div className="text-center xl:text-left space-y-3">
             <span className="text-xl">{t("role")}</span>
             <h1 className="h1 mb-6">
-              {t("greeting")} <span className="text-accent">{t("name")}</span>
+              {t("greeting")} <span className="text-accent">Lanja</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
               {t("description")}

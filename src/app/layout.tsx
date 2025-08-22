@@ -1,3 +1,4 @@
+"use client";
 import './globals.css'
 import { JetBrains_Mono } from 'next/font/google'
 import Header from "@/components/Header"
@@ -11,10 +12,6 @@ const JetBrainsMono = JetBrains_Mono({
   variable: '--font-jetbrainsMono'
 })
 
-export const metadata = {
-  title: 'Ny Lanja',
-}
-
 export default function RootLayout({
   children,
 }: {
@@ -22,9 +19,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={JetBrainsMono.variable}> { /* `${JetBrainsMono.variable} pb-10` */}
+      <body className={JetBrainsMono.variable}>
         <Header />
-        <StairTransition/>
+        <StairTransition />
         <PageTransition>
           {children}
         </PageTransition>
