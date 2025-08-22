@@ -41,6 +41,7 @@ export default function Header() {
               <Image
                 src={languages.find((lang) => lang.code === i18n.language)?.flag || "/assets/flag/en.png"}
                 width={20}
+                unoptimized
                 height={20}
                 alt={languages.find((lang) => lang.code === i18n.language)?.alt || "English flag"}
                 className="inline-block"
@@ -58,6 +59,7 @@ export default function Header() {
                   >
                     <Image
                       src={lang.flag}
+                      unoptimized
                       width={20}
                       height={20}
                       alt={lang.alt}

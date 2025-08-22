@@ -40,6 +40,7 @@ const MobileNav = () => {
         >
           <Image
             src={languages.find((lang) => lang.code === i18n.language)?.flag || "/assets/flag/en.png"}
+            unoptimized
             width={20}
             height={20}
             alt={languages.find((lang) => lang.code === i18n.language)?.alt || "English flag"}
@@ -57,6 +58,7 @@ const MobileNav = () => {
               >
                 <Image
                   src={lang.flag}
+                  unoptimized
                   width={20}
                   height={20}
                   alt={lang.alt}
