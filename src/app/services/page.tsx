@@ -33,7 +33,7 @@ const services = [
 ];
 
 const ServicesPage = () => {
-  const { t } = useTranslation("common"); // namespace "common"
+  const { t } = useTranslation("common");
 
   return (
     <section className="min-h-[80vh] flex flex-col justify-center py-12 xl:py-0">

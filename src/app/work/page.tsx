@@ -421,6 +421,7 @@ const page = () => {
                       <div className="relative w-full h-full">
                         <Image
                           src={project.image}
+                          unoptimized
                           fill
                           className="object-cover rounded-xl pb-3"
                           alt=""
