@@ -27,6 +27,8 @@
     "lucide-react": "^0.394.0",
     "next": "13.4.8",
     "next-i18next": "^15.4.2",
+    "nodemailer": "^7.0.5",
+    "notiflix": "^3.2.8",
     "postcss": "8.4.24",
     "react": "18.2.0",
     "react-countup": "^6.5.3",

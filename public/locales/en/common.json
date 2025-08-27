@@ -79,9 +79,10 @@
   "selectService": "Select a service",
   "webDevelopment": "Web Development",
   "uiuxDesign": "UI/UX Design",
-  "logoDesign": "Logo Design",
+  "mobileDev": "Mobile development",
   "typeMessage": "Type your message here.",
   "sendMessage": "Send Message",
   "phone": "Phone",
-  "address": "Address"
+  "address": "Address",
+  "emailSendMessageNotif": "Email sent successfully"
 }

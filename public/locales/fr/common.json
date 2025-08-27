@@ -78,9 +78,10 @@
   "selectService": "Sélectionnez un service",
   "webDevelopment": "Développement Web",
   "uiuxDesign": "UI/UX Design",
-  "logoDesign": "Création de Logo",
+  "mobileDev": "Développement mobile",
   "typeMessage": "Tapez votre message ici.",
   "sendMessage": "Envoyer le message",
   "phone": "Téléphone",
-  "address": "Adresse"
+  "address": "Adresse",
+  "emailSendMessageNotif": "Email envoyer avec success"
 }
