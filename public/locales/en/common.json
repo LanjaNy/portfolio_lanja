@@ -18,10 +18,10 @@
   "designTitle": "UI/UX Design",
   "designDescription": "I design intuitive and aesthetically pleasing user interfaces, focusing on the user experience at every stage. By leveraging design tools like Figma and Adobe XD, I create visually appealing layouts and interactions that enhance usability and engagement.",
 
-  "experienceTab": "Expérience",
-  "educationTab": "Éducation",
-  "skillsTab": "Compétences",
-  "aboutTab": "À propos de moi",
+  "experienceTab": "Experience",
+  "educationTab": "Education",
+  "skillsTab": "Skills",
+  "aboutTab": "About me",
 
   "aboutTitle": "About me",
   "aboutDescription": "I’m a passionate developer and designer, skilled in building responsive web and mobile applications. I focus on creating seamless user experiences, leveraging both frontend and backend technologies to deliver high-quality solutions. Always learning and evolving to stay ahead in the tech world.",
