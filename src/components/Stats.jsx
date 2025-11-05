@@ -9,11 +9,11 @@ const stat = [
     key: "yearsExperience"
   },
   {
-    num: 10,
+    num: 20,
     key: "projectsCompleted"
   },
   {
-    num: 5,
+    num: 6,
     key: "technologiesMastered"
   },
   {
