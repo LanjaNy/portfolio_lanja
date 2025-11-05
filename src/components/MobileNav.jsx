@@ -19,22 +19,22 @@ const Links = [
 const MobileNav = () => {
   const pathname = usePathname();
   const { i18n } = useTranslation();
-  const [isOpen, setIsOpen] = useState(false);
+  // const [isOpen, setIsOpen] = useState(false);
 
-  const languages = [
-    { code: "fr", flag: "/assets/flag/fr.png", alt: "French flag" },
-    { code: "en", flag: "/assets/flag/en.png", alt: "English flag" },
-  ];
+  // const languages = [
+  //   { code: "fr", flag: "/assets/flag/fr.png", alt: "French flag" },
+  //   { code: "en", flag: "/assets/flag/en.png", alt: "English flag" },
+  // ];
 
-  const handleChangeLanguage = (code) => {
-    i18n.changeLanguage(code);
-    setIsOpen(false); // Close dropdown after selection
-  };
+  // const handleChangeLanguage = (code) => {
+  //   i18n.changeLanguage(code);
+  //   setIsOpen(false);
+  // };
 
   return (
     <div className="flex items-center gap-4">
       <div className="relative">
-        <button
+        {/* <button
           onClick={() => setIsOpen(!isOpen)}
           className="bg-white text-black px-2 py-2 rounded flex items-center"
         >
@@ -67,7 +67,7 @@ const MobileNav = () => {
               </button>
             ))}
           </div>
-        )}
+        )} */}
       </div>
 
       <Sheet>

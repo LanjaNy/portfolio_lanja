@@ -1,7 +1,6 @@
 {
   "role": "Fullstack Web Developer",
   "greeting": "Hello I'm",
-  "name": "Lanja",
   "description": "I’m a passionate developer and designer, skilled in building responsive web and mobile applications. I focus on creating seamless user experiences, leveraging both frontend and backend technologies to deliver high-quality solutions. Always learning and evolving to stay ahead in the tech world.",
   "download": "Download",
 
@@ -27,7 +26,6 @@
   "aboutTitle": "About me",
   "aboutDescription": "I’m a passionate developer and designer, skilled in building responsive web and mobile applications. I focus on creating seamless user experiences, leveraging both frontend and backend technologies to deliver high-quality solutions. Always learning and evolving to stay ahead in the tech world.",
   "name": "Name",
-  "phone": "Phone",
   "experience": "Experience",
   "whatsapp": "WhatsApp",
   "nationality": "Nationality",

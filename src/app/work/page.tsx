@@ -266,17 +266,17 @@ const services = [
   {
     title: "UI/UX Design",
     description:
-      "Crafting intuitive and visually appealing user interfaces with a focus on seamless user experiences.",
+      "Je crée des interfaces digitales qui allient esthétique et fonctionnalité, en mettant toujours l’utilisateur au centre. Mon approche combine recherche, prototypage et design visuel pour offrir des expériences intuitives et mémorables.",
   },
   {
     title: "Web Development",
     description:
-      "Building responsive, high-performance websites using modern frameworks and technologies.",
+      "Je construis des sites et applications web performants, réactifs et sécurisés, en combinant technologies modernes et bonnes pratiques de développement. Mon objectif est de transformer des idées en expériences digitales fonctionnelles, optimisées pour tous les appareils et toutes les interfaces.",
   },
   {
     title: "Mobile Development",
     description:
-      "Developing cross-platform mobile applications with clean code and optimal functionality.",
+      "Je développe des applications mobiles multiplateformes avec un code propre et une fonctionnalité optimale.",
   },
 ];
 
@@ -295,7 +295,11 @@ const getFilteredProjects = (serviceTitle: string) => {
         stackNames.includes("angular 16")
       );
     } else if (serviceTitle === "Mobile Development") {
-      return stackNames.includes("flutter");
+      return (
+        stackNames.includes("flutter") ||
+        stackNames.includes("react native") ||
+        stackNames.includes("ionic angular")
+      );
     }
     return false;
   });
@@ -345,7 +349,7 @@ const page = () => {
     >
       <div className="container mx-auto">
         <div className="mb-12">
-          <h2 className="text-3xl font-bold text-white mb-6">My Services</h2>
+          <h2 className="text-3xl font-bold text-white mb-6">Mes projets</h2>
           <div className="flex flex-col sm:flex-row gap-4 mb-6">
             {services.map((service, index) => (
               <button
@@ -380,6 +384,7 @@ const page = () => {
               <div className="flex items-center gap-4">
                 <Link
                   href={project.live}
+                  hidden={project.live == ""}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-black/10 rounded-full p-5 hover:-rotate-45 group-hover:bg-accent transition-all duration-500"
@@ -388,12 +393,14 @@ const page = () => {
                 </Link>
                 <Link
                   href={project.github}
+                  hidden={project.github == ""}
                   className="bg-black/10 rounded-full p-5"
                 >
                   <BsGithub className="text-white text-3xl group-hover:text-accent" />
                 </Link>
                 <Link
                   href={project.gitlab}
+                  hidden={project.gitlab == ""}
                   className="bg-black/10 rounded-full p-5"
                 >
                   <BsGitlab className="text-white text-3xl group-hover:text-accent" />

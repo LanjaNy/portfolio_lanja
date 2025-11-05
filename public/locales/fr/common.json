@@ -1,6 +1,12 @@
 {
+  "homeMenu": "Accueil",
+  "servicesMenu": "Services",
+  "resumeMenu": "Résumé",
+  "workMenu": "Travail",
+  "contactMenu": "Contact",
+
   "role": "Développeur Fullstack Web",
-  "": "Bonjour, je suis",
+  "greeting": "Bonjour, je suis",
   "description": "Je suis un développeur et designer passionné, compétent dans la création d'applications web et mobiles responsives. Je me concentre sur la création d'expériences utilisateur fluides, en utilisant à la fois les technologies frontend et backend pour fournir des solutions de haute qualité. Toujours en apprentissage pour rester à la pointe de la technologie.",
   "download": "Télécharger",
 

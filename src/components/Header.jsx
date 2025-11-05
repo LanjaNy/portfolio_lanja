@@ -12,10 +12,10 @@ export default function Header() {
   const { i18n } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
 
-  const languages = [
-    { code: "fr", name: "FR", flag: "/assets/flag/fr.png", alt: "French flag" },
-    { code: "en", name: "EN", flag: "/assets/flag/en.png", alt: "English flag" },
-  ];
+  // const languages = [
+  //   { code: "fr", name: "FR", flag: "/assets/flag/fr.png", alt: "French flag" },
+  //   { code: "en", name: "EN", flag: "/assets/flag/en.png", alt: "English flag" },
+  // ];
 
   const handleChangeLanguage = (code) => {
     i18n.changeLanguage(code);
@@ -34,7 +34,7 @@ export default function Header() {
         <div className="hidden xl:flex items-center gap-8">
           <Nav />
           <div className="relative">
-            <button
+            {/* <button
               onClick={() => setIsOpen(!isOpen)}
               className="bg-transparent border border-accent text-white px-4 py-2 rounded flex items-center text-sm gap-2"
             >
@@ -47,9 +47,9 @@ export default function Header() {
                 className="inline-block"
               />
               {languages.find((lang) => lang.code === i18n.language)?.name || "EN"}
-            </button>
+            </button> */}
 
-            {isOpen && (
+            {/* {isOpen && (
               <div className="absolute top-full mt-2 bg-white text-black rounded shadow-lg z-10">
                 {languages.map((lang) => (
                   <button
@@ -69,7 +69,7 @@ export default function Header() {
                   </button>
                 ))}
               </div>
-            )}
+            )} */}
           </div>
           <Link href={"/contact"}>
             <Button>Contact me</Button>
