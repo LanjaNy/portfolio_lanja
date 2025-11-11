@@ -16,7 +16,7 @@ const projects = [
     category: "Frontend",
     title: "Last portfolio",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis repellat aliquid voluptatibus magni quos rem a eos, architecto dolorem deserunt",
+      "A modern and elegant portfolio showcasing skills and projects with a smooth and responsive user interface.",
     stack: [{ name: "HTML" }, { name: "CSS" }, { name: "Javascript" }],
     image: "/assets/work/last_portfolio.png",
     live: "https://nylanja.netlify.app/",
@@ -25,10 +25,10 @@ const projects = [
   },
   {
     num: "02",
-    category: "frontend",
+    category: "Frontend",
     title: "Typing speed",
     description:
-      "Amet consectetur adipisicing elit. Veritatis repellat aliquid voluptatibus magni quos rem a eos, architecto dolorem deserunt",
+      "Interactive application to measure and improve typing speed with real-time statistics and performance tracking.",
     stack: [{ name: "HTML" }, { name: "CSS" }, { name: "Javascript" }],
     image: "/assets/work/typ-eo.png",
     live: "https://typ-eo.netlify.app/",
@@ -40,7 +40,7 @@ const projects = [
     category: "Frontend",
     title: "Workpulsetimer",
     description:
-      "Veritatis repellat aliquid voluptatibus magni quos rem a eos, architecto dolorem deserunt met consectetur adipisicing elit.",
+      "Productivity timer based on the Pomodoro technique to optimize time management and improve focus.",
     stack: [{ name: "HTML" }, { name: "CSS" }, { name: "Javascript" }],
     image: "/assets/work/workpulsetimer.png",
     live: "https://workpulsetimer.netlify.app/",
@@ -50,9 +50,9 @@ const projects = [
   {
     num: "04",
     category: "Frontend & Backend",
-    title: "Site web ESN Arato madagascar",
+    title: "ESN Arato Madagascar website",
     description:
-      "Veritatis repellat aliquid voluptatibus magni quos rem a eos, architecto dolorem deserunt met consectetur adipisicing elit.",
+      "Complete corporate website with content management system for a digital services company in Madagascar.",
     stack: [
       { name: "Angular 16" },
       { name: "Tailwindcss" },
@@ -66,9 +66,9 @@ const projects = [
   {
     num: "05",
     category: "Frontend & Backend",
-    title: "Chrono devilery",
+    title: "Chrono delivery",
     description:
-      "Veritatis repellat aliquid voluptatibus magni quos rem a eos, architecto dolorem deserunt met consectetur adipisicing elit.",
+      "Real-time delivery platform with order tracking and comprehensive logistics management system.",
     stack: [
       { name: "Angular" },
       { name: "SpringBoot" },
@@ -82,9 +82,9 @@ const projects = [
   {
     num: "06",
     category: "Frontend",
-    title: "Comparateur de prix",
+    title: "Price comparison",
     description:
-      "Veritatis repellat aliquid voluptatibus magni quos rem a eos, architecto dolorem deserunt met consectetur adipisicing elit.",
+      "Web application for comparing product prices from different sources in real-time with advanced filters.",
     stack: [{ name: "NextJs" }, { name: "RTK Query" }, { name: "Tailwindcss" }],
     image: "/assets/work/comparateur.png",
     live: "",
@@ -94,9 +94,9 @@ const projects = [
   {
     num: "07",
     category: "Frontend",
-    title: "Réseau sociaux",
+    title: "Social network",
     description:
-      "Veritatis repellat aliquid voluptatibus magni quos rem a eos, architecto dolorem deserunt met consectetur adipisicing elit.",
+      "Social media platform with sharing features, instant messaging and personalized news feed.",
     stack: [{ name: "NextJs" }, { name: "RTK Query" }, { name: "Tailwindcss" }],
     image: "/assets/work/voyance.png",
     live: "",
@@ -106,9 +106,9 @@ const projects = [
   {
     num: "08",
     category: "Frontend",
-    title: "Consultation en ligne",
+    title: "Online consultation",
     description:
-      "Veritatis repellat aliquid voluptatibus magni quos rem a eos, architecto dolorem deserunt met consectetur adipisicing elit.",
+      "Telemedicine platform allowing appointment booking and video consultations with professionals.",
     stack: [{ name: "NextJs" }, { name: "RTK Query" }, { name: "Tailwindcss" }],
     image: "/assets/work/consultation.png",
     live: "",
@@ -118,9 +118,9 @@ const projects = [
   {
     num: "09",
     category: "Frontend",
-    title: "Plateforme e-learning Kajy University Madagascar",
+    title: "Kajy University Madagascar e-learning platform",
     description:
-      "Veritatis repellat aliquid voluptatibus magni quos rem a eos, architecto dolorem deserunt met consectetur adipisicing elit.",
+      "Online learning management system with video courses, interactive quizzes and student progress tracking.",
     stack: [{ name: "Codeigniter 3" }, { name: "Jquery" }],
     image: "/assets/work/kajyu.png",
     live: "",
@@ -131,9 +131,9 @@ const projects = [
   {
     num: "01",
     category: "UI/UX Design",
-    title: "Plateforme pour finance",
+    title: "Finance platform",
     description:
-      "Veritatis repellat aliquid voluptatibus magni quos rem a eos, architecto dolorem deserunt met consectetur adipisicing elit.",
+      "Intuitive interface for financial management with interactive dashboards and data visualization.",
     stack: [{ name: "figma" }],
     image: "/assets/work/design/pjsp.png",
     live: "",
@@ -143,9 +143,9 @@ const projects = [
   {
     num: "02",
     category: "UI/UX Design",
-    title: "Web 3d",
+    title: "3D Web",
     description:
-      "Veritatis repellat aliquid voluptatibus magni quos rem a eos, architecto dolorem deserunt met consectetur adipisicing elit.",
+      "Immersive web experience with interactive 3D elements and smooth animations for modern navigation.",
     stack: [{ name: "figma" }],
     image: "/assets/work/design/web3d.png",
     live: "",
@@ -155,9 +155,9 @@ const projects = [
   {
     num: "03",
     category: "UI/UX Design",
-    title: "El pirata",
+    title: "El Pirata",
     description:
-      "Veritatis repellat aliquid voluptatibus magni quos rem a eos, architecto dolorem deserunt met consectetur adipisicing elit.",
+      "Colorful and engaging design for an entertainment application with a playful and intuitive interface.",
     stack: [{ name: "figma" }],
     image: "/assets/work/design/el_pirata.png",
     live: "",
@@ -167,9 +167,9 @@ const projects = [
   {
     num: "04",
     category: "UI/UX Design",
-    title: "Trajet à vide",
+    title: "Empty trip",
     description:
-      "Veritatis repellat aliquid voluptatibus magni quos rem a eos, architecto dolorem deserunt met consectetur adipisicing elit.",
+      "Carpooling application optimizing empty trips with geolocation and reservation system.",
     stack: [{ name: "figma" }],
     image: "/assets/work/design/trajet_a_vide.png",
     live: "",
@@ -179,9 +179,9 @@ const projects = [
   {
     num: "05",
     category: "UI/UX Design",
-    title: "Pôle stage mobile",
+    title: "Internship hub mobile",
     description:
-      "Veritatis repellat aliquid voluptatibus magni quos rem a eos, architecto dolorem deserunt met consectetur adipisicing elit.",
+      "Mobile application facilitating internship search and management with intelligent student-company matching.",
     stack: [{ name: "figma" }],
     image: "/assets/work/design/pole_stage.png",
     live: "",
@@ -193,7 +193,7 @@ const projects = [
     category: "UI/UX Design",
     title: "Chrono delivery mobile",
     description:
-      "Veritatis repellat aliquid voluptatibus magni quos rem a eos, architecto dolorem deserunt met consectetur adipisicing elit.",
+      "Clean mobile interface for real-time delivery tracking with push notifications and interactive map.",
     stack: [{ name: "figma" }],
     image: "/assets/work/design/chrono_delivery.png",
     live: "",
@@ -203,9 +203,9 @@ const projects = [
   {
     num: "07",
     category: "UI/UX Design",
-    title: "Gestion de projet",
+    title: "Project management",
     description:
-      "Veritatis repellat aliquid voluptatibus magni quos rem a eos, architecto dolorem deserunt met consectetur adipisicing elit.",
+      "Collaborative project management tool with Kanban boards, Gantt charts and time tracking.",
     stack: [{ name: "figma" }],
     image: "/assets/work/design/gestion_projet.png",
     live: "",
@@ -215,9 +215,9 @@ const projects = [
   {
     num: "08",
     category: "UI/UX Design",
-    title: "Consultation en ligne",
+    title: "Online consultation",
     description:
-      "Veritatis repellat aliquid voluptatibus magni quos rem a eos, architecto dolorem deserunt met consectetur adipisicing elit.",
+      "Professional interface for remote medical consultations with integrated secure payment system.",
     stack: [{ name: "figma" }],
     image: "/assets/work/design/consultation_doctor.png",
     live: "",
@@ -227,9 +227,9 @@ const projects = [
   {
     num: "09",
     category: "UI/UX Design",
-    title: "Comparateur de prix",
+    title: "Price comparison",
     description:
-      "Veritatis repellat aliquid voluptatibus magni quos rem a eos, architecto dolorem deserunt met consectetur adipisicing elit.",
+      "Minimalist and efficient design to quickly compare prices with advanced filters and personalized alerts.",
     stack: [{ name: "figma" }],
     image: "/assets/work/design/comparateur.png",
     live: "",
@@ -241,7 +241,7 @@ const projects = [
     category: "UI/UX Design",
     title: "Bom",
     description:
-      "Veritatis repellat aliquid voluptatibus magni quos rem a eos, architecto dolorem deserunt met consectetur adipisicing elit.",
+      "Modern application with clean design and innovative features for an optimal user experience.",
     stack: [{ name: "figma" }],
     image: "/assets/work/design/bom.png",
     live: "",
@@ -253,7 +253,7 @@ const projects = [
     category: "UI/UX Design",
     title: "Aura",
     description:
-      "Veritatis repellat aliquid voluptatibus magni quos rem a eos, architecto dolorem deserunt met consectetur adipisicing elit.",
+      "Elegant and sophisticated interface with special attention to visual details and accessibility.",
     stack: [{ name: "figma" }],
     image: "/assets/work/design/aura.png",
     live: "",
@@ -266,17 +266,17 @@ const services = [
   {
     title: "UI/UX Design",
     description:
-      "Je crée des interfaces digitales qui allient esthétique et fonctionnalité, en mettant toujours l’utilisateur au centre. Mon approche combine recherche, prototypage et design visuel pour offrir des expériences intuitives et mémorables.",
+      "I create digital interfaces that combine aesthetics and functionality, always putting the user at the center. My approach combines research, prototyping and visual design to deliver intuitive and memorable experiences.",
   },
   {
     title: "Web Development",
     description:
-      "Je construis des sites et applications web performants, réactifs et sécurisés, en combinant technologies modernes et bonnes pratiques de développement. Mon objectif est de transformer des idées en expériences digitales fonctionnelles, optimisées pour tous les appareils et toutes les interfaces.",
+      "I build high-performance, responsive and secure websites and web applications, combining modern technologies and development best practices. My goal is to transform ideas into functional digital experiences, optimized for all devices and interfaces.",
   },
   {
     title: "Mobile Development",
     description:
-      "Je développe des applications mobiles multiplateformes avec un code propre et une fonctionnalité optimale.",
+      "I develop cross-platform mobile applications with clean code and optimal functionality.",
   },
 ];
 
@@ -349,7 +349,7 @@ const page = () => {
     >
       <div className="container mx-auto">
         <div className="mb-12">
-          <h2 className="text-3xl font-bold text-white mb-6">Mes projets</h2>
+          <h2 className="text-3xl font-bold text-white mb-6">My projects</h2>
           <div className="flex flex-col sm:flex-row gap-4 mb-6">
             {services.map((service, index) => (
               <button
