@@ -1,16 +1,15 @@
 "use client";
 
 import CountUp from "react-countup";
-import { useTranslation } from "react-i18next";
 
 const stat = [
   {
     num: 3,
-    key: "yearsExperience"
+    text: "Years of experience"
   },
   {
     num: 20,
-    key: "projectsCompleted"
+    text: "Projects completed"
   },
   {
     num: 4,
@@ -23,7 +22,6 @@ const stat = [
 ];
 
 const Stats = () => {
-  const { t } = useTranslation("common");
 
   return (
     <section className="pt-4 pb-12 xl:pt-0 xl:pb-0">
@@ -34,7 +32,7 @@ const Stats = () => {
               <span className="text-4xl">+</span><CountUp end={item.num} duration={5} delay={2} className="text-4xl xl:text-6xl font-extrabold"/>
               <p className={`${item.text.length < 15 ? "max-w-[100px]" : "max-w-[150px]"} leading-snug text-white/80`}>{item.text}</p>
             </div>
-          ))}
+          })}
         </div>
       </div>
     </section>
