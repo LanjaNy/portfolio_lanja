@@ -3,48 +3,30 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-const Links = [
-  {
-    name: "Accueil",
-    path: "/",
-  },
-  {
-    name: "Services",
-    path: "/services",
-  },
-  {
-    name: "Résumé",
-    path: "/resume",
-  },
-  {
-    name: "Projets",
-    path: "/work",
-  },
-  {
-    name: "Contact",
-    path: "/contact",
-  },
+const links = [
+  { name: "Accueil", path: "/" },
+  { name: "Services", path: "/services" },
+  { name: "Résumé", path: "/resume" },
+  { name: "Projets", path: "/work" },
+  { name: "Contact", path: "/contact" },
 ];
 
 const Nav = () => {
   const pathname = usePathname();
+
   return (
     <nav className="flex gap-8">
-      {Links.map((link, index) => {
-        return (
-          <Link
-            href={link.path}
-            key={index}
-            className={`capitalize font-medium hover:text-accent transition-all ${
-              link.path === pathname
-                ? "text-accent border-b-2 border-accent"
-                : ""
-            }`}
-          >
-            {link.name}
-          </Link>
-        );
-      })}
+      {links.map((link, index) => (
+        <Link
+          href={link.path}
+          key={index}
+          className={`capitalize font-medium hover:text-accent transition-all ${
+            pathname === link.path ? "text-accent border-b-2 border-accent" : ""
+          }`}
+        >
+          {link.name}
+        </Link>
+      ))}
     </nav>
   );
 };
