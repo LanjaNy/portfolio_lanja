@@ -21,10 +21,10 @@ const Links = [
         name: "work",
         path: "/work",
     },
-    // {
-    //     name: "contact",
-    //     path: "/contact",
-    // },
+    {
+        name: "contact",
+        path: "/contact",
+    },
 ]
 
 const MobileNav = () => {
